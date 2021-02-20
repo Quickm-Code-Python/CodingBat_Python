@@ -22,6 +22,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CodingBat_Python.py" />
+    <Compile Include="test_challenge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\monkey_trouble.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\sleep_in.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\__init__.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logic_1\" />
+    <Folder Include="Logic_2\" />
+    <Folder Include="List_1\" />
+    <Folder Include="List_2\" />
+    <Folder Include="String_2\" />
+    <Folder Include="String_1\" />
+    <Folder Include="Warmup_2\" />
+    <Folder Include="Warmup_1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
