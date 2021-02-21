@@ -25,10 +25,40 @@
     <Compile Include="test_challenge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Warmup_1\diff21.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\front3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\front_back.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\makes10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\missing_char.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Warmup_1\monkey_trouble.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Warmup_1\near_hundred.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\not_string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\parrot_trouble.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\pos_neg.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Warmup_1\sleep_in.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Warmup_1\sum_double.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Warmup_1\__init__.py" />
