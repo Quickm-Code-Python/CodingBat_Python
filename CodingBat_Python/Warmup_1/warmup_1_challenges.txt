@@ -3,7 +3,7 @@ are retained on the site under my account. Challenge solution with dates exist
 in this solution.
 
 Challenge:          Addition Date:        
-diff21
+diff21				02/21/2021
 front_back
 front3
 makes10
@@ -11,7 +11,7 @@ missing_char
 monkey_trouble      02/19/2021
 near_hundred
 not_string
-parrot_trouble
+parrot_trouble		02/21/2021
 pos_neg
 sleep_in            02/19/2021
 sum_double          02/21/2021
