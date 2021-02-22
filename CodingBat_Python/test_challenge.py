@@ -9,6 +9,7 @@ from Warmup_1.near_hundred   import near_hundred
 from Warmup_1.near_hundred   import near_hundred
 from Warmup_1.pos_neg        import pos_neg
 from Warmup_1.not_string     import not_string
+from Warmup_1.missing_char   import missing_char
 
 def print_challenge_name(challenge_name):
     challenge = challenge_name
@@ -198,4 +199,24 @@ def test_not_string():
   print("Input : %s" %(str))
   print("Output: %s" %(not_string(str)))
   print()
+
+def test_missing_char():
+  print_challenge_name("Missing Char")
+
+  str   = "kitten"
+  index = 1
+  print("Input : String: %s   Index: %d" %(str,index))
+  print("Output: %r" %(missing_char(str,index)))
+  print()
+
+  index = 0
+  print("Input : String: %s   Index: %d" %(str,index))
+  print("Output: %r" %(missing_char(str,index)))
+  print()
+
+  index = 4
+  print("Input : String: %s   Index: %d" %(str,index))
+  print("Output: %r" %(missing_char(str,index)))
+  print()
+
 
