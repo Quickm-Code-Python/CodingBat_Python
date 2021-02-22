@@ -6,7 +6,8 @@ from Warmup_1.diff21         import diff21
 from Warmup_1.parrot_trouble import parrot_trouble
 from Warmup_1.makes10        import makes10
 from Warmup_1.near_hundred   import near_hundred
-
+from Warmup_1.near_hundred   import near_hundred
+from Warmup_1.pos_neg         import pos_neg
 
 def print_challenge_name(challenge_name):
     challenge = challenge_name
@@ -155,3 +156,26 @@ def test_near_hundred():
   print("Output: %r" %(near_hundred(num)))
   print()
 
+def test_pos_neg():
+  print_challenge_name("Pos Neg")
+
+  a         = 1
+  b         = -1
+  negative  = False
+  print("Input : First: %d   Second: %d  Negative: %r" %(a, b, negative))
+  print("Output: %r" %(pos_neg(a, b, negative)))
+  print()
+
+  a         = -1
+  b         = 1
+  negative  = False
+  print("Input : First: %d   Second: %d  Negative: %r" %(a, b, negative))
+  print("Output: %r" %(pos_neg(a, b, negative)))
+  print()
+
+  a         = -4
+  b         = -5
+  negative  = True
+  print("Input : First: %d   Second: %d  Negative: %r" %(a, b, negative))
+  print("Output: %r" %(pos_neg(a, b, negative)))
+  print()

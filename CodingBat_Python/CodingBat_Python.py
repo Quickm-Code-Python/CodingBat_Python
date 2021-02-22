@@ -7,6 +7,7 @@ from test_challenge import test_diff21
 from test_challenge import test_parrot_trouble
 from test_challenge import test_makes10
 from test_challenge import test_near_hundred
+from test_challenge import test_pos_neg
 
 
 print("Welcome to CoderBat - Python code challeges")
@@ -19,3 +20,4 @@ test_diff21()
 test_parrot_trouble()
 test_makes10()
 test_near_hundred()
+test_pos_neg()
