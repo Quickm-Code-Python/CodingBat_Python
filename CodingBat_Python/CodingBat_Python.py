@@ -5,6 +5,7 @@ from test_challenge import test_monkey_trouble
 from test_challenge import test_sum_double
 from test_challenge import test_diff21
 from test_challenge import test_parrot_trouble
+from test_challenge import test_makes10
 
 
 print("Welcome to CoderBat - Python code challeges")
@@ -15,3 +16,4 @@ test_monkey_trouble()
 test_sum_double()
 test_diff21()
 test_parrot_trouble()
+test_makes10()

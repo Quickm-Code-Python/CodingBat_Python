@@ -4,7 +4,7 @@ from Warmup_1.monkey_trouble import monkey_trouble
 from Warmup_1.sum_double     import sum_double
 from Warmup_1.diff21         import diff21
 from Warmup_1.parrot_trouble import parrot_trouble
-
+from Warmup_1.makes10        import makes10
 
 
 def print_challenge_name(challenge_name):
@@ -113,6 +113,27 @@ def test_parrot_trouble():
   hour    = 6
   print("Input : Talking: %r   Hour: %d" %(talking, hour))
   print("Output: %r" %(parrot_trouble(talking, hour)))
+  print()
+
+def test_makes10():
+  print_challenge_name("Makes 10")
+
+  a = 9
+  b = 10
+  print("Input : First: %d   Second: %d" %(a, b))
+  print("Output: %r" %(makes10(a, b)))
+  print()
+
+  a = 9
+  b = 9
+  print("Input : First: %d   Second: %d" %(a, b))
+  print("Output: %r" %(makes10(a, b)))
+  print()
+
+  a = 1
+  b = 9
+  print("Input : First: %d   Second: %d" %(a, b))
+  print("Output: %r" %(makes10(a, b)))
   print()
 
 
