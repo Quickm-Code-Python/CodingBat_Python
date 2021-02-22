@@ -5,7 +5,7 @@ in this solution.
 Challenge:          Addition Date:        
 diff21				02/21/2021
 front_back			02/21/2021
-front3
+front3				02/21/2021
 makes10				02/21/2021
 missing_char		02/21/2021
 monkey_trouble      02/19/2021

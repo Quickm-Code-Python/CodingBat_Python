@@ -11,6 +11,7 @@ from Warmup_1.pos_neg        import pos_neg
 from Warmup_1.not_string     import not_string
 from Warmup_1.missing_char   import missing_char
 from Warmup_1.front_back     import front_back
+from Warmup_1.front3         import front3
 
 def print_challenge_name(challenge_name):
     challenge = challenge_name
@@ -236,4 +237,22 @@ def test_front_back():
   str   = "ab"
   print("Input : String: %s" %(str))
   print("Output: %r" %(front_back(str)))
+  print()
+
+def test_front3():
+  print_challenge_name("Front 3")
+
+  str   = "Java"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front3(str)))
+  print()
+
+  str   = "Chocolate"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front3(str)))
+  print()
+
+  str   = "abc"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front3(str)))
   print()
