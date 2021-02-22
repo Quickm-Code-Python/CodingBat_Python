@@ -10,6 +10,7 @@ from Warmup_1.near_hundred   import near_hundred
 from Warmup_1.pos_neg        import pos_neg
 from Warmup_1.not_string     import not_string
 from Warmup_1.missing_char   import missing_char
+from Warmup_1.front_back     import front_back
 
 def print_challenge_name(challenge_name):
     challenge = challenge_name
@@ -219,4 +220,20 @@ def test_missing_char():
   print("Output: %r" %(missing_char(str,index)))
   print()
 
+def test_front_back():
+  print_challenge_name("Front Back")
 
+  str   = "code"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front_back(str)))
+  print()
+
+  str   = "a"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front_back(str)))
+  print()
+
+  str   = "ab"
+  print("Input : String: %s" %(str))
+  print("Output: %r" %(front_back(str)))
+  print()

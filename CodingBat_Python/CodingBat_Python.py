@@ -10,6 +10,7 @@ from test_challenge import test_near_hundred
 from test_challenge import test_pos_neg
 from test_challenge import test_not_string
 from test_challenge import test_missing_char
+from test_challenge import test_front_back
 
 
 print("Welcome to CoderBat - Python code challeges")
@@ -25,3 +26,4 @@ test_near_hundred()
 test_pos_neg()
 test_not_string()
 test_missing_char()
+test_front_back()
