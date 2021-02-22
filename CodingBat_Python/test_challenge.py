@@ -7,7 +7,8 @@ from Warmup_1.parrot_trouble import parrot_trouble
 from Warmup_1.makes10        import makes10
 from Warmup_1.near_hundred   import near_hundred
 from Warmup_1.near_hundred   import near_hundred
-from Warmup_1.pos_neg         import pos_neg
+from Warmup_1.pos_neg        import pos_neg
+from Warmup_1.not_string     import not_string
 
 def print_challenge_name(challenge_name):
     challenge = challenge_name
@@ -179,3 +180,22 @@ def test_pos_neg():
   print("Input : First: %d   Second: %d  Negative: %r" %(a, b, negative))
   print("Output: %r" %(pos_neg(a, b, negative)))
   print()
+
+def test_not_string():
+  print_challenge_name("Not String")
+
+  str = "candy"
+  print("Input : %s" %(str))
+  print("Output: %s" %(not_string(str)))
+  print()
+
+  str = "x"
+  print("Input : %s" %(str))
+  print("Output: %s" %(not_string(str)))
+  print()
+
+  str = "not bad"
+  print("Input : %s" %(str))
+  print("Output: %s" %(not_string(str)))
+  print()
+

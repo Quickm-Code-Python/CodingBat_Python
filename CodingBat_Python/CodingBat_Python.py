@@ -8,6 +8,7 @@ from test_challenge import test_parrot_trouble
 from test_challenge import test_makes10
 from test_challenge import test_near_hundred
 from test_challenge import test_pos_neg
+from test_challenge import test_not_string
 
 
 print("Welcome to CoderBat - Python code challeges")
@@ -21,3 +22,4 @@ test_parrot_trouble()
 test_makes10()
 test_near_hundred()
 test_pos_neg()
+test_not_string()
