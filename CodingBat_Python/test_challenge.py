@@ -5,6 +5,7 @@ from Warmup_1.sum_double     import sum_double
 from Warmup_1.diff21         import diff21
 from Warmup_1.parrot_trouble import parrot_trouble
 from Warmup_1.makes10        import makes10
+from Warmup_1.near_hundred   import near_hundred
 
 
 def print_challenge_name(challenge_name):
@@ -136,4 +137,21 @@ def test_makes10():
   print("Output: %r" %(makes10(a, b)))
   print()
 
+def test_near_hundred():
+  print_challenge_name("Near Hundred")
+
+  num = 93
+  print("Input : %d" %(num))
+  print("Output: %r" %(near_hundred(num)))
+  print()
+
+  num = 90
+  print("Input : %d" %(num))
+  print("Output: %r" %(near_hundred(num)))
+  print()
+
+  num = 89
+  print("Input : %d" %(num))
+  print("Output: %r" %(near_hundred(num)))
+  print()
 
